@@ -24,7 +24,7 @@ variable "key_name" {
 
 variable "tags" {
 
-    type = string
+    type = map()
     description = "for identification"
   
 }
