@@ -24,7 +24,7 @@ variable "key_name" {
 
 variable "tags" {
 
-    type = "string"
+    type = string
     description = "for identification"
   
 }
